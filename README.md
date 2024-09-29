@@ -8,5 +8,5 @@ pip install -r requirements.txt
 ```
 ## Run steamlit app
 ```
-streamlit run bike_sharing.py
+streamlit run dashboard.py
 ```
