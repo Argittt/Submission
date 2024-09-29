@@ -29,7 +29,7 @@ def create_summary_df(df):
         st.error("Kolom 'holiday_hours' atau 'cnt_hours' tidak ditemukan dalam dataset.")
         return pd.DataFrame()
 
-all_data = pd.read_csv(r"D:\VisualCode\Bangkit\all_data.csv")
+all_data = pd.read_csv(r"dashboard/all_data.csv")
 
 with st.sidebar:
     st.markdown(
